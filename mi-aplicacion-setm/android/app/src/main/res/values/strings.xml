@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Cuida tus tibias</string>
+    <string name="title_activity_main">Cuida tus tibias</string>
+    <string name="package_name">com.cuidatustibias.guia</string>
+    <string name="custom_url_scheme">com.cuidatustibias.guia</string>
+</resources>

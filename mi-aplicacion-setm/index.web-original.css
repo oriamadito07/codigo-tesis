@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Outfit', Arial, sans-serif;
+  color-scheme: dark;
+  --background: #0d0f12;
+  --foreground: #f4f6f8;
+  --primary: #b5f23d;
+  --primary-foreground: #0d0f12;
+  --secondary: #171b20;
+  --secondary-foreground: #d5dbe1;
+  --muted: #20252b;
+  --muted-foreground: #a0a8b2;
+  --card: #15191e;
+  --border: #303740;
+  --accent: #3df2a8;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; background: var(--background); }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: var(--background); color: var(--foreground); }
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
+::selection { background: var(--primary); color: var(--primary-foreground); }

@@ -1,0 +1,20 @@
+# Dependencias (se regeneran con npm install)
+node_modules/
+
+# Compilados
+dist/
+*.apk
+*.aab
+
+# Android: compilados y configuración local
+mi-aplicacion-setm/android/local.properties
+mi-aplicacion-setm/android/.gradle/
+mi-aplicacion-setm/android/build/
+mi-aplicacion-setm/android/app/build/
+mi-aplicacion-setm/android/capacitor-cordova-android-plugins/build/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+*.log
+.idea/

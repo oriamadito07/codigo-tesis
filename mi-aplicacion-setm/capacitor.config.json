@@ -1,0 +1,10 @@
+{
+  "appId": "com.cuidatustibias.guia",
+  "appName": "Cuida tus tibias",
+  "webDir": "dist",
+  "backgroundColor": "#0b1026",
+  "android": { "backgroundColor": "#0b1026" },
+  "plugins": {
+    "SystemBars": { "insetsHandling": "css", "style": "DARK" }
+  }
+}
